@@ -5,7 +5,7 @@ import com.satesilka.stationeryshop.stationery.WritingSupplies;
 
 public class Eraser extends WritingSupplies {
 
-    public Eraser() {
-        super(StationeryType.ERASER);
+    public Eraser(int price) {
+        super(StationeryType.ERASER, price);
     }
 }

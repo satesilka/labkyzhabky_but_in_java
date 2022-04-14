@@ -5,7 +5,7 @@ import com.satesilka.stationeryshop.stationery.StationeryType;
 
 public class Calculator extends Stationery {
 
-    public Calculator() {
-        super(StationeryType.CALCULATOR);
+    public Calculator(int price) {
+        super(StationeryType.CALCULATOR, price);
     }
 }

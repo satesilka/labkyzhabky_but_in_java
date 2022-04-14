@@ -5,7 +5,7 @@ import com.satesilka.stationeryshop.stationery.StationeryType;
 
 public class Paint extends Stationery {
 
-    public Paint() {
-        super(StationeryType.PAINT);
+    public Paint(int price) {
+        super(StationeryType.PAINT, price);
     }
 }

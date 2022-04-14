@@ -5,7 +5,7 @@ import com.satesilka.stationeryshop.stationery.StationeryType;
 
 public class Ruler extends Stationery {
 
-    public Ruler() {
-        super(StationeryType.RULER);
+    public Ruler(int price) {
+        super(StationeryType.RULER, price);
     }
 }

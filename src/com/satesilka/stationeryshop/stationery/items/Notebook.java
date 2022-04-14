@@ -5,7 +5,7 @@ import com.satesilka.stationeryshop.stationery.WritingSupplies;
 
 public class Notebook extends WritingSupplies {
 
-    public Notebook() {
-        super(StationeryType.NOTEBOOK);
+    public Notebook(int price) {
+        super(StationeryType.NOTEBOOK, price);
     }
 }
