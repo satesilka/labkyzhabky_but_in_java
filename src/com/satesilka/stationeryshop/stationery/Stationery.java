@@ -25,6 +25,22 @@ public class Stationery {
         this.price = price;
     }
 
+    public String getHeaders() {
+        return "Type,Price";
+    }
+
+    public String toCSV() {
+        return type.name() + "," + price;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Stationery stationery = (Stationery) o;
+        return type == stationery.type && price == stationery.price;
+    }
+
     @Override
     public String toString() {
         return "Stationery{" +
